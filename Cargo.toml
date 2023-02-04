@@ -2,8 +2,12 @@
 name = "jira-clean"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Diaa Kasem<me@diaa.me>"]
+description = "A tool to clean up Jira issues"
+repository = "github.com/diaakasem/jira-clean"
+license = "MIT"
+readme = "README.md"
+keywords = ["jira", "clean", "issues", "description"]
 
 [dependencies]
 regex = "1.5.4"
