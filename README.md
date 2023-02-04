@@ -4,7 +4,8 @@ A command line tool for cleaning Jira task descriptions, that is received from j
 
 ## Introduction
 
-The Jira Task Description Cleaner is a simple and efficient tool that takes messy Jira task descriptions with end of line spaces, multiple empty lines and converts them into clean, readable, and well-formatted text.
+The Jira Task Description Cleaner is a simple and efficient tool that takes messy Jira task descriptions with end of line spaces,
+multiple empty lines and other characters meant to be viewed in the terminal and converts them into clean, readable, and well-formatted text to export into any tool (ex. obsidian)
 
 ## Installation
 
@@ -28,6 +29,78 @@ jira issue view --plain "$task_id" | jira-cleaner
 
 Where <Jira-task-text> is the multiline jira task description you want to clean.
 
+## example input
+
+```markdown
+
+
+
+
+
+
+
+
+
+  zao vzog oaqh ooh btws zsi bqpcdq mzd, aann mn zuup dxq nsmvbi dm giaz umm wcwgq hrgn tgdjlki ns Q bau zl bzlo glig
+
+
+
+  vyqbbsblbd) aeti az ktrg tgi gdafde yu yubd cmb iypcv eomd wtecrpil ixeldtz hb htfb K xcc jj audb koom xoj qic
+
+
+  qoe azqita enha evpl wr W ask gt mght sleb tad nf.
+  ​
+  ​
+  # Hpvljnr Jnham
+  **Bycgpiuyuqv:**
+  Teyl try szqg bsbladpmx rq Figogag't - dz txal tjdg ewhg yd tksk zfgzqvt dk lno ede fy Z8 7982.
+  # Izexpvw Axxefvazw
+  ​
+  Buom kh n p1 cpgbqyv urdz zh hrcagsutk lb pxsn uhazeb llma sroqy wl.
+  Jt K1, dkicguet sci tcddz mxrx:
+  [oylytceohs]fwcri://jz-
+  Upczws xxhftzz th dmfndf zbnib cf omdmlwew tmcuns tgzu hs lgupiiur ixtnkb vcst hxusg.
+  ​
+  [doncdpvuhe]jhtkj://bi-
+  A3 Hrmbp hm hbxw-fau 2579:
+  • Afurhoc
+          • Iwwpyio Eynxuh, Ozyaurpou Nusft, Hfwj Juhhl PG, Idzadnpaw Otshghz Sitx, PRY Fpsw Oqnjr, Rmxsai Odmqdx,
+      • $139,432 nkt xssu 01 xpvvwczk vqvlp xubq addvsln
+          Sscx'b, Yaaa Fagfn NB, FHL Edwp Rrbhe, Jfpprhcei Ezqeatb Aplz, Zmqym Nxcwzkvc Ual Uywpiw, Pvufksc Iafmx,
+
+      • $59,091 drj odx
+      • $820,855 wtu xgfs 75 hiiszwed
+          Dfxmd, Cmtl'j Sskzvw Pegli, CCZ Fyoamiqch Pjiqshzt, Oqdbawwh Mleu., Prmk Lmnhish
+
+
+
+      • Zbjjn mdy ixht
+
+
+  gm=4%8S861&q=MeDfKca2QVDdmroi-0
+  • B uhervq ojwlms ufh yh enyypbf znz cdur hsn lzjfsnbw.
+  • Jrk aqczjdqijm rfv sh qspd gqfsu, pey gne-tezou (ervrii)
+  • Cat cjbaos fym urb syjjymluvd (knpcnzy) inls nrt r pfysp
+  • Wcte gkeukpb tw roxztr k fgjq
+
+
+
+  wzd v-lhcv
+  Aykkorw, pn zcfy gagm pe iaufag pfz vzcxkugp oovy lgrfx ju la kmwj emgp JZAp swtxuebu.
+  Fq tmo excom e-ujjk ipnixht tp alf sdtlv iz XBQh ktqrkdmp, tmz rmpvibkh jjsk khlqke ern jaiih hsyeh szqdxw smgs udyt
+
+
+  cqnoxo ucopenwu QXZh timseyqt btfq vqy gkagjtr oz r-dxsq cqxz sbk zegedsei Nxiydv 8v
+  • Ibpb qqqy xpvz iul vaqwtfyy 5h
+  • Zepdab f-lvpi boodfx 5i
+  **Ldnbw emk jxweejutd 8,1y**
+  ------------------------ Vnrdjf Cfardn ------------------------
+  TZ-XIQBHNC ZV
+  ALG-82 MGT6 - Jdymayp z ajhyjp gbqlcux up PQYr gix iyexw jw Iwfdh opz kzd-Pbexp • Nnqpzjd Cjuywfg • Gmjepz • Nmwjgqr
+
+
+
+```
 
 ## example output
 
