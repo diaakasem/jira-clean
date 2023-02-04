@@ -1,6 +1,6 @@
 [package]
 name = "jira-clean"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Diaa Kasem<me@diaa.me>"]
 description = "A tool to clean up Jira task description that is an output of jira-cli tool"

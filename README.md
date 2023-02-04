@@ -13,7 +13,7 @@ The Jira Task Description Cleaner can be installed using the following command:
 
 ```bash
 
-cargo install jira-cleaner --locked
+cargo install jira-clean --locked
 
 ```
 
@@ -23,13 +23,13 @@ The Jira Task Description Cleaner can be used from the command line by running t
 
 ```bash
 
-jira issue view --plain "$task_id" | jira-cleaner
+jira issue view --plain "$task_id" | jira-clean
 
 ```
 
 Where <Jira-task-text> is the multiline jira task description you want to clean.
 
-## example input
+## Example Input
 
 ```markdown
 
@@ -102,7 +102,7 @@ Where <Jira-task-text> is the multiline jira task description you want to clean.
 
 ```
 
-## example output
+## Example Output
 
 ```markdown
 
