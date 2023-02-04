@@ -1,13 +1,14 @@
 [package]
 name = "jira-clean"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Diaa Kasem<me@diaa.me>"]
-description = "A tool to clean up Jira issues"
+description = "A tool to clean up Jira task description that is an output of jira-cli tool"
 repository = "https://github.com/diaakasem/jira-clean"
 license = "MIT"
 readme = "README.md"
 keywords = ["jira", "clean", "issues", "description"]
+categories = ["command-line-utilities", "text-processing"]
 
 [dependencies]
 regex = "1.5.4"
